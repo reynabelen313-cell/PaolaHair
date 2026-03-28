@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paola Hair Style</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#fff0f5;
+    text-align:center;
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+.header{
+    background:#d63384;
+    height:120px;
+}
+
+.logo{
+    margin-top:-60px;
+}
+.logo img{
+    width:140px;
+    border-radius:50%;
+    border:4px solid #ffb6c1;
+    background:white;
+}
+
+h1{
+    margin:10px;
+    color:#d63384;
+}
+
+.info{
+    color:#444;
+}
+
+.desc{
+    margin:15px;
+    font-weight:bold;
+    color:#d63384;
+}
+
+/* Redes */
+.redes img{
+    width:40px;
+    margin:10px;
+    transition:0.3s;
+}
+.redes img:hover{
+    transform:scale(1.2);
+}
+
+/* Banner */
+.banner img{
+    width:90%;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+/* Servicios */
+.productos{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:15px;
+    padding:15px;
+}
+
+.card{
+    background:white;
+    padding:12px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    transition:0.3s;
+    border:2px solid #ffb6c1;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    border-radius:8px;
+}
+
+.card p{
+    margin:5px 0;
+    font-weight:bold;
+    color:#d63384;
+}
+
+.card small{
+    color:#666;
+}
+
+.precio{
+    font-weight:bold;
+    color:#28a745;
+}
+
+/* Botón */
+.btn{
+    display:inline-block;
+    margin-top:5px;
+    padding:6px 10px;
+    background:#25d366;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:12px;
+}
+
+/* WhatsApp flotante */
+.whatsapp-float{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25d366;
+    color:white;
+    padding:12px;
+    border-radius:50%;
+    font-size:20px;
+    text-decoration:none;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header"></div>
+
+<div class="logo">
+<img src="img/logo.jpg">
+</div>
+
+<h1>PAOLA HAIR STYLE</h1>
+
+<div class="info">
+Lunes a Sábado de 11:00am - 19:00pm<br>
+Direccion : La Paz, Zona El Rosario, Calle Santa Cruz, Esquina murillo
+</div>
+
+<div class="desc">
+🔥 15% de descuento 🔥 <br>
+ Belleza, estilo y elegancia 
+</div>
+
+<div class="redes">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+<img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png">
+</div>
+
+<div class="banner">
+<img src="img/banner.jpg">
+</div>
+
+<div class="productos">
+
+<div class="card">
+<img src="img/corte.jpg">
+<p>💇‍♀️ Corte para dama</p>
+<small>Estilo moderno</small><br>
+<span class="precio">Bs. 25</span><br>
+<a class="btn" href="https://wa.me/591XXXXXXXX?text=Quiero%20un%20corte">Pedir</a>
+</div>
+
+<div class="card">
+<img src="img/peinado.jpg">
+<p>💁‍♀️ Peinados</p>
+<small>Para eventos</small><br>
+<span class="precio">Bs. 40</span><br>
+<a class="btn" href="https://wa.me/591XXXXXXXX?text=Quiero%20un%20peinado">Pedir</a>
+</div>
+
+<div class="card">
+<img src="img/tinte.jpg">
+<p>🎨 Tintes</p>
+<small>Cambio de look</small><br>
+<span class="precio">Bs. 60</span><br>
+<a class="btn" href="https://wa.me/591XXXXXXXX?text=Quiero%20tinte">Pedir</a>
+</div>
+
+<div class="card">
+<img src="img/extensiones.jpg">
+<p>💇‍♀️ Extensiones</p>
+<small>Cabello natural</small><br>
+<span class="precio">Bs. 120</span><br>
+<a class="btn" href="https://wa.me/591XXXXXXXX?text=Quiero%20extensiones">Pedir</a>
+</div>
+
+<div class="card">
+<img src="img/rayitos.jpg">
+<p>✨ Rayitos</p>
+<small>Iluminación</small><br>
+<span class="precio">Bs. 70</span><br>
+<a class="btn" href="https://wa.me/591XXXXXXXX?text=Quiero%20rayitos">Pedir</a>
+</div>
+
+<div class="card">
+<img src="img/depilacion.jpg">
+<p>🪄 Depilación</p>
+<small>Servicio profesional</small><br>
+<span class="precio">Bs. 30</span><br>
+<a class="btn" href="https://wa.me/591XXXXXXXX?text=Quiero%20depilación">Pedir</a>
+</div>
+
+</div>
+
+<a class="whatsapp-float" href="https://wa.me/591XXXXXXXX">💬</a>
+
+</body>
+</html>
